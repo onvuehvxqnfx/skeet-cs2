@@ -1,0 +1,6 @@
+# Additional plugin search paths — relative to repo root.
+extra_paths = ["src/skeet/plugins"]
+
+[allowlist]
+# Only these plugin names may be auto-loaded from extra paths.
+names = ["entity_walker", "netvar_dumper"]
