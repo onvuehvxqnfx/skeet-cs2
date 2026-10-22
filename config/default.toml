@@ -1,0 +1,17 @@
+[host]
+name = "skeet-cs2"
+version = "0.6.3"
+
+[dump]
+build = "2401"
+out_dir = "out"
+serialize = true
+
+[plugins]
+enabled = ["entity_walker", "netvar_dumper"]
+
+[plugins.entity_walker]
+max_entities = 64
+
+[plugins.netvar_dumper]
+include_client_tables = true
