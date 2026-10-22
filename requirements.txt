@@ -1,0 +1,12 @@
+# skeet-cs2 dump tooling — pinned for py3.11+
+pywin32==306
+pymem==1.13.0
+pefile==2024.8.26
+capstone==5.0.3
+construct==2.10.70
+rich==13.9.4
+typer==0.12.5
+pydantic==2.9.2
+httpx==0.27.2
+pytest==8.3.3
+pytest-asyncio==0.24.0
