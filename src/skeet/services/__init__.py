@@ -1,0 +1,1 @@
+"""Service layer — memory access, dump serialisation, artifact writers."""
